@@ -3,6 +3,7 @@
 [![CI](https://github.com/chubbyjs/chubbyjs-laminas-config-factory/workflows/CI/badge.svg?branch=master)](https://github.com/chubbyjs/chubbyjs-laminas-config-factory/actions?query=workflow%3ACI)
 [![Coverage Status](https://coveralls.io/repos/github/chubbyjs/chubbyjs-laminas-config-factory/badge.svg?branch=master)](https://coveralls.io/github/chubbyjs/chubbyjs-laminas-config-factory?branch=master)
 [![Infection MSI](https://badge.stryker-mutator.io/github.com/chubbyjs/chubbyjs-laminas-config-factory/master)](https://dashboard.stryker-mutator.io/reports/github.com/chubbyjs/chubbyjs-laminas-config-factory/master)
+[![npm-version](https://img.shields.io/npm/v/@chubbyjs/chubbyjs-laminas-config-factory.svg)](https://www.npmjs.com/package/@chubbyjs/chubbyjs-laminas-config-factory)
 
 [![bugs](https://sonarcloud.io/api/project_badges/measure?project=chubbyjs_chubbyjs-laminas-config-factory&metric=bugs)](https://sonarcloud.io/dashboard?id=chubbyjs_chubbyjs-laminas-config-factory)
 [![code_smells](https://sonarcloud.io/api/project_badges/measure?project=chubbyjs_chubbyjs-laminas-config-factory&metric=code_smells)](https://sonarcloud.io/dashboard?id=chubbyjs_chubbyjs-laminas-config-factory)
@@ -18,12 +19,12 @@
 
 ## Description
 
-Chubbyjs container adapter using laminas service manager configuration.
+An abstract service factory for [chubbyjs/chubbyjs-laminas-config][2] or any other similar implementation.
 
 ## Requirements
 
  * node: 12
- * [@chubbyjs/psr-container][2]: ^1.0
+ * [@chubbyjs/psr-container][3]: ^1.0
 
 ## Installation
 
@@ -68,5 +69,5 @@ const serviceA = ServiceAFactory('default')(container);
 Dominik Zogg 2021
 
 [1]: https://www.npmjs.com/package/@chubbyjs/chubbyjs-laminas-config-factory
-
-[2]: https://www.npmjs.com/package/@chubbyjs/psr-container
+[2]: https://www.npmjs.com/package/@chubbyjs/chubbyjs/chubbyjs-laminas-config
+[3]: https://www.npmjs.com/package/@chubbyjs/psr-container
