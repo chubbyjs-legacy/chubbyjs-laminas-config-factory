@@ -31,7 +31,7 @@ An abstract service factory for [chubbyjs/chubbyjs-laminas-config][2] or any oth
 Through [NPM](https://www.npmjs.com) as [@chubbyjs/chubbyjs-laminas-config-factory][1].
 
 ```sh
-npm i @chubbyjs/chubbyjs-laminas-config-factory@1.0.0
+npm i @chubbyjs/chubbyjs-laminas-config-factory@1.0.1
 ```
 
 ## Usage

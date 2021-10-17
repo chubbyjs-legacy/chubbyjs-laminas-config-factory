@@ -1,6 +1,6 @@
 {
   "name": "@chubbyjs/chubbyjs-laminas-config-factory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An abstract service factory for chubbyjs/chubbyjs-laminas-config or any other similar implementation.",
   "keywords": [
     "chubbyjs-container",
@@ -45,8 +45,6 @@
     "node": ">=12"
   },
   "dependencies": {
-    "@chubbyjs/chubbyjs-container": "github:chubbyjs/chubbyjs-container",
-    "@chubbyjs/chubbyjs-negotiation": "github:chubbyjs/chubbyjs-negotiation",
     "@chubbyjs/psr-container": "^1.0.0"
   },
   "devDependencies": {
